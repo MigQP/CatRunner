@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
@@ -65,8 +66,11 @@ public class PlayerMovement : MonoBehaviour
         float height = GetComponent<Collider>().bounds.size.y;
         bool isGrounded = Physics.Raycast(transform.position, Vector3.down, (height / 2) + 0.1f);
 
+        if (isGrounded)
+        {
+            // Si grounded, brincar 
+            rb.AddForce(Vector3.up * jumpForce);
+        }
 
-        // Si grounded, brincar 
-        rb.AddForce(Vector3.up * jumpForce);
     }
 }
