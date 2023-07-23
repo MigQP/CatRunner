@@ -7,6 +7,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public bool isGame2d;
+
     int score;
 
     public static GameManager inst;

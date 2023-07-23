@@ -39,6 +39,7 @@ public class CameraFollow : MonoBehaviour
         {
             camera3D.enabled = !camera3D.enabled;
             camera2D.enabled = !camera2D.enabled;
+            GameManager.inst.isGame2d = !GameManager.inst.isGame2d;
         }
     }
 }
