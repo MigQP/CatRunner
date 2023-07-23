@@ -15,6 +15,8 @@ public class Obstacle : MonoBehaviour
     void Start()
     {
         playerMovement = FindObjectOfType<PlayerMovement>();
+        collider_3D.enabled = true;
+        collider_2D.enabled = false;
     }
 
     void OnCollisionEnter(Collision collision)

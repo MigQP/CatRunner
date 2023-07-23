@@ -7,12 +7,22 @@ public class Coin : MonoBehaviour
     [SerializeField]
     float turnSpeed = 90f;
 
+    [SerializeField]
+    GameObject coin;
+
+    [SerializeField]
+    Transform pescaditoMesh;
+
+    [SerializeField]
+    Collider collider_3D;
+    [SerializeField]
+    Collider collider_2D;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<Obstacle>() != null)
         {
-            Destroy(gameObject);
+            Destroy(coin);
             return;
         }
 
@@ -25,12 +35,16 @@ public class Coin : MonoBehaviour
         }
 
 
-        // Agregar puntaje  
-        GameManager.inst.IncrementScore();
+        if(other.gameObject.name == "Player")
+        {
+            // Agregar puntaje  
+            GameManager.inst.IncrementScore();
 
 
-        // Destruir esta moneda
-        Destroy(gameObject);
+            // Destruir esta moneda
+            Destroy(coin);
+        }
+       
     }
 
     // Start is called before the first frame update
@@ -42,6 +56,17 @@ public class Coin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 0, turnSpeed * Time.deltaTime);
+        pescaditoMesh.Rotate(0, 0, turnSpeed * Time.deltaTime); 
+
+        if (!GameManager.inst.isGame2d)
+        {
+            collider_3D.enabled = true;
+            collider_2D.enabled = false;
+        }
+        else
+        {
+            collider_2D.enabled = true;
+            collider_3D.enabled = false;
+        }
     }
 }
