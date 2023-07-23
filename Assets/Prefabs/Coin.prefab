@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 90
+  pescadoMesh: {fileID: 0}
 --- !u!54 &-6249238182838685331
 Rigidbody:
   m_ObjectHideFlags: 0
