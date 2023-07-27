@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
         score++;
         scoreText.text = "Score: " + score;
         // Incrementar la velocidad del jugador
-        playerMovement.speed += playerMovement.speedIncreasePerPoint;
+        //playerMovement.speed += playerMovement.speedIncreasePerPoint;
     }
 
     void Awake()

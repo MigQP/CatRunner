@@ -21,13 +21,24 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpForce = 400f;
     [SerializeField] LayerMask groundMask;
 
+    public float minX = -4.0f;
+    public float maxX = 4.0f;
+
     private void FixedUpdate()
     {
         if (!isAlive)
             return;
         Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
         Vector3 horizontalMove = transform.right * horizontalInput * speed * Time.fixedDeltaTime * horizontalMultiplier;
-        rb.MovePosition(rb.position + forwardMove + horizontalMove);
+
+        // Calculate the new position including both forward and horizontal movements
+        Vector3 clampledNewPosition = rb.position + forwardMove + horizontalMove;
+
+
+        // Clamp the x-coordinate to stay within the defined range
+        clampledNewPosition.x = Mathf.Clamp(clampledNewPosition.x, minX, maxX);
+
+        rb.MovePosition(clampledNewPosition);
     }
 
     // Update is called once per frame
