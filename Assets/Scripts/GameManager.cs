@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
     TMP_Text scoreText;
 
     [SerializeField] PlayerMovement playerMovement;
+    public GameObject levelCompletedPanel;
+
+    private PlayerMovement player;
 
     public void IncrementScore()
     {
@@ -28,7 +31,8 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        inst = this;    
+        inst = this;
+        player = FindObjectOfType<PlayerMovement>();
     }
 
     // Start is called before the first frame update
@@ -41,5 +45,15 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Restart()
+    {
+        playerMovement.Restart();
+    }
+
+    public void LevelComplete()
+    {
+        levelCompletedPanel.SetActive(true);
     }
 }

@@ -10,23 +10,51 @@ public class GroundTile : MonoBehaviour
     GameObject obstaclePrefab;
     [SerializeField]
     GameObject tallObstaclePrefab;
+    [SerializeField]
+    GameObject goalPrefab;
 
     [SerializeField] float tallObstacleChance = 0.2f    ;
 
     [SerializeField]
     GameObject coinPrefab;
 
+    [SerializeField]
+    Transform goalSpawnPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         groundSpawner = FindObjectOfType<GroundSpawner>();
-        
+        groundSpawner.tilesSpawned++;
+        if (groundSpawner.tilesSpawned == 37)
+        {
+            groundSpawner.SpawnTile(false);
+        }
+        if (groundSpawner.tilesSpawned == 38)
+        {
+            groundSpawner.SpawnTile(false);
+        }
+        if (groundSpawner.tilesSpawned == 39)
+        {
+            groundSpawner.SpawnTile(false);
+            SpawnGoal();
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        groundSpawner.SpawnTile(true);
+        if (groundSpawner.tilesSpawned < 37)
+        {
+            groundSpawner.SpawnTile(true);
+        }
+        //groundSpawner.SpawnTile(true);
         Destroy(gameObject, 4);
+    }
+
+
+    public void SpawnGoal()
+    {
+        Instantiate(goalPrefab, goalSpawnPoint.position, Quaternion.identity, transform);
     }
 
 
@@ -42,15 +70,21 @@ public class GroundTile : MonoBehaviour
 
         // Elegir un punto aleatorio donde spawnear el obstaculo
         int obstacleSpawnIndex = Random.Range(2, 5);
+
         Transform spawnPoint = transform.GetChild(obstacleSpawnIndex).transform;
+
 
         // Spawnear el obstáculo en posición
         Instantiate(obstacleToSpawn, spawnPoint.position, Quaternion.identity, transform);
+
+
+
+        
     }
 
     public void SpawnCoins()
     {
-        int coinsToSpawn = 10;
+        int coinsToSpawn = 3;
         for (int i = 0; i < coinsToSpawn; i++)
         {
             GameObject temp = Instantiate(coinPrefab, transform);

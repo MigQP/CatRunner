@@ -355,8 +355,10 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Goal.cs"
 "Assets/Scripts/GroundSpawner.cs"
 "Assets/Scripts/GroundTile.cs"
+"Assets/Scripts/LevelChanger/LevelChanger.cs"
 "Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0

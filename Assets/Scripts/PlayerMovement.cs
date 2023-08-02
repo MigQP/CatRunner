@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     public float minX = -4.0f;
     public float maxX = 4.0f;
 
+    [SerializeField] GameObject gameOverPanel;
+
+
     private void FixedUpdate()
     {
         if (!isAlive)
@@ -62,11 +65,18 @@ public class PlayerMovement : MonoBehaviour
     {
         isAlive = false;
 
+        gameOverPanel.SetActive(true);
+
         // Reiniciar el juego
-        Invoke("Restart", 2);
+        //Invoke("Restart", 2);
     }
 
-    void Restart()
+    public void LevelComplete ()
+    {
+        isAlive = false;
+    }
+
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

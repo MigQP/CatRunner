@@ -7,6 +7,8 @@ public class GroundSpawner : MonoBehaviour
     [SerializeField] GameObject groundTile;
     Vector3 nextSpawnPoint;
 
+    public int tilesSpawned;
+
     public void SpawnTile(bool spawnItems)
     {
         GameObject temp = Instantiate(groundTile, nextSpawnPoint, Quaternion.identity);
@@ -29,7 +31,7 @@ public class GroundSpawner : MonoBehaviour
             {
                 SpawnTile(false);
             }
-            else
+            else 
             {
                 SpawnTile(true);
             }
