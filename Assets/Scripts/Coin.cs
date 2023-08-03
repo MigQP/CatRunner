@@ -18,6 +18,9 @@ public class Coin : MonoBehaviour
     [SerializeField]
     Collider collider_2D;
 
+
+    public bool isDecreasing;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<Obstacle>() != null)
@@ -35,11 +38,20 @@ public class Coin : MonoBehaviour
         }
 
 
-        if(other.gameObject.name == "Player")
+        if (other.gameObject.name == "Player")
         {
+            if (isDecreasing)
+            {
+                GameManager.inst.DecreaseSpeed();
+            }
+            else
+            {
+                GameManager.inst.IncrementSpeed();
+            }
+
+
             // Agregar puntaje  
             GameManager.inst.IncrementScore();
-
 
             // Destruir esta moneda
             Destroy(coin);

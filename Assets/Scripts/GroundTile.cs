@@ -19,6 +19,9 @@ public class GroundTile : MonoBehaviour
     GameObject coinPrefab;
 
     [SerializeField]
+    GameObject coinDecreasePrefab;
+
+    [SerializeField]
     Transform goalSpawnPoint;
 
     // Start is called before the first frame update
@@ -74,6 +77,8 @@ public class GroundTile : MonoBehaviour
         Transform spawnPoint = transform.GetChild(obstacleSpawnIndex).transform;
 
 
+        
+
         // Spawnear el obstáculo en posición
         Instantiate(obstacleToSpawn, spawnPoint.position, Quaternion.identity, transform);
 
@@ -84,11 +89,22 @@ public class GroundTile : MonoBehaviour
 
     public void SpawnCoins()
     {
-        int coinsToSpawn = 3;
+        int coinsToSpawn = 13;
         for (int i = 0; i < coinsToSpawn; i++)
         {
-            GameObject temp = Instantiate(coinPrefab, transform);
-            temp.transform.position = GetRandomPointInCollider(GetComponent<Collider>());
+            if (Random.Range(0f, 1f) > 0.5f)
+            {
+                GameObject temp = Instantiate(coinPrefab, transform);
+                temp.transform.position = GetRandomPointInCollider(GetComponent<Collider>());
+            }
+
+            else
+            {
+                GameObject temp = Instantiate(coinDecreasePrefab, transform);
+                temp.transform.position = GetRandomPointInCollider(GetComponent<Collider>());
+            }
+            //GameObject temp = Instantiate(coinPrefab, transform);
+            //temp.transform.position = GetRandomPointInCollider(GetComponent<Collider>());
         }
     }
 

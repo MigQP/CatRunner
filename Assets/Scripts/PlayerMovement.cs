@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float speedIncreasePerPoint = 0.1f;
 
-    [SerializeField] float jumpForce = 400f;
+    public float jumpForce = 400f;
     [SerializeField] LayerMask groundMask;
 
     public float minX = -4.0f;

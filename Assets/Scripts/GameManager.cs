@@ -29,6 +29,34 @@ public class GameManager : MonoBehaviour
         //playerMovement.speed += playerMovement.speedIncreasePerPoint;
     }
 
+    public void IncrementSpeed()
+    {
+        playerMovement.speed += playerMovement.speedIncreasePerPoint;
+
+        // Check if jumpForce is less than 650 before increasing it.
+        if (playerMovement.jumpForce < 650f)
+        {
+            playerMovement.jumpForce += 30f;
+            // Ensure jumpForce doesn't exceed 650.
+            if (playerMovement.jumpForce > 650f)
+                playerMovement.jumpForce = 650f;
+        }
+    }
+
+    public void DecreaseSpeed()
+    {
+        playerMovement.speed -= playerMovement.speedIncreasePerPoint;
+        
+        // Check if jumpForce is greater than zero before decreasing it.
+        if (playerMovement.jumpForce > 0f)
+        {
+            playerMovement.jumpForce -= 20f;
+            // Ensure jumpForce doesn't go below zero.
+            if (playerMovement.jumpForce < 0f)
+                playerMovement.jumpForce = 0f;
+        }
+    }
+
     void Awake()
     {
         inst = this;

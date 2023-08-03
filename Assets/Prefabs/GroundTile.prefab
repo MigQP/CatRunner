@@ -170,6 +170,7 @@ MonoBehaviour:
   goalPrefab: {fileID: 2196781988123002560, guid: 5f119779f01b29f4c88463baa7260fad, type: 3}
   tallObstacleChance: 0.2
   coinPrefab: {fileID: 2199641067317231959, guid: 7f1dbd0b34ddaf340b31e39d40c8dde4, type: 3}
+  coinDecreasePrefab: {fileID: 2199641067317231959, guid: 1ac5637e9f15f224dab65c267602b96e, type: 3}
   goalSpawnPoint: {fileID: 116030382630180700}
 --- !u!1 &6405579401469262790
 GameObject:
