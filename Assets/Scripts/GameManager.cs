@@ -31,7 +31,14 @@ public class GameManager : MonoBehaviour
 
     public void IncrementSpeed()
     {
-        playerMovement.speed += playerMovement.speedIncreasePerPoint;
+        if (playerMovement.speed < 10)
+        {
+            playerMovement.speed += playerMovement.speedIncreasePerPoint;
+
+        }
+
+
+        //playerMovement.speed += playerMovement.speedIncreasePerPoint;
 
         // Check if jumpForce is less than 650 before increasing it.
         if (playerMovement.jumpForce < 650f)
