@@ -47,6 +47,12 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (speed <= 1.0)
+        {
+            Die();
+        }
+
+
         horizontalInput = Input.GetAxis("Horizontal");
 
 
