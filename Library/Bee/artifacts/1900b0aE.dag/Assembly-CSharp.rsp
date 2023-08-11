@@ -361,6 +361,7 @@
 "Assets/Scripts/GroundTile.cs"
 "Assets/Scripts/LevelChanger/LevelChanger.cs"
 "Assets/Scripts/Obstacle.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 

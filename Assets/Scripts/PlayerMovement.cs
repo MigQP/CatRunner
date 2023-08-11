@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Animator characterAnim;
+
+    public bool grounded;
+
     bool isAlive = true;
 
     public float speed = 5;
@@ -42,6 +46,23 @@ public class PlayerMovement : MonoBehaviour
         clampledNewPosition.x = Mathf.Clamp(clampledNewPosition.x, minX, maxX);
 
         rb.MovePosition(clampledNewPosition);
+
+        // Check grounded
+        float height = GetComponent<Collider>().bounds.size.y;
+        // Check if the player has started falling after jumping
+        if (!grounded && rb.velocity.y < 0)
+        {
+            characterAnim.SetBool("isJumping", false);
+            characterAnim.SetBool("isFalling", true);
+        }
+
+        if (grounded && rb.velocity.y == 0)
+        {
+            characterAnim.SetBool("isFalling", false);
+            characterAnim.SetBool("isGrounded", true);
+        }
+
+        grounded = Physics.Raycast(transform.position, Vector3.down, (height / 2) + 0.1f);
     }
 
     // Update is called once per frame
@@ -51,6 +72,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Die();
         }
+
+
 
 
         horizontalInput = Input.GetAxis("Horizontal");
@@ -64,6 +87,13 @@ public class PlayerMovement : MonoBehaviour
         if (transform.position.y < -5)
         {
             Die();
+        }
+
+        // Check if the player has landed and transition to idle animation
+        if (characterAnim.GetBool("isGrounded") && grounded)
+        {
+
+            characterAnim.SetBool("isMoving", true); 
         }
     }
 
@@ -97,7 +127,11 @@ public class PlayerMovement : MonoBehaviour
         {
             // Si grounded, brincar 
             rb.AddForce(Vector3.up * jumpForce);
+            characterAnim.SetBool("isMoving", false); 
+            characterAnim.SetBool("isJumping", true);
         }
+
+
 
     }
 }
