@@ -14,6 +14,8 @@ public class CameraFollow : MonoBehaviour
     public Camera camera3D;
     public Camera camera2D;
 
+    bool canChangePerspective = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +37,7 @@ public class CameraFollow : MonoBehaviour
 
         camera2D_T.position = transform.position + offset2D;  
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && canChangePerspective)
         {
             camera3D.enabled = !camera3D.enabled;
             camera2D.enabled = !camera2D.enabled;
