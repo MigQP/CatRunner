@@ -18,6 +18,9 @@ public class Coin : MonoBehaviour
     [SerializeField]
     Collider collider_2D;
 
+    [SerializeField]
+    GameObject hitParticle;
+
 
     public bool isDecreasing;
 
@@ -53,6 +56,7 @@ public class Coin : MonoBehaviour
             // Agregar puntaje  
             GameManager.inst.IncrementScore();
 
+            Explode();
             // Destruir esta moneda
             Destroy(coin);
         }
@@ -80,5 +84,11 @@ public class Coin : MonoBehaviour
             collider_2D.enabled = true;
             collider_3D.enabled = false;
         }
+    }
+
+    void Explode()
+    {
+        GameObject hit = Instantiate(hitParticle, transform.position, Quaternion.identity);
+        hit.GetComponent<ParticleSystem>().Play();
     }
 }

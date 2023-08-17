@@ -300,6 +300,8 @@ MonoBehaviour:
   pescaditoMesh: {fileID: 6268848668212012008}
   collider_3D: {fileID: 3698623355349236163}
   collider_2D: {fileID: 770265367734438979}
+  hitParticle: {fileID: 5466867469547575301, guid: bdb1c472677c2594382d22b83865461d, type: 3}
+  isDecreasing: 0
 --- !u!54 &8054920400629497014
 Rigidbody:
   m_ObjectHideFlags: 0
