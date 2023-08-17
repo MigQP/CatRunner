@@ -72,6 +72,8 @@ public class GroundTile : MonoBehaviour
         }
 
         // Elegir un punto aleatorio donde spawnear el obstaculo
+
+
         int obstacleSpawnIndex = Random.Range(2, 5);
 
         Transform spawnPoint = transform.GetChild(obstacleSpawnIndex).transform;
@@ -82,9 +84,12 @@ public class GroundTile : MonoBehaviour
         // Spawnear el obstáculo en posición
         Instantiate(obstacleToSpawn, spawnPoint.position, Quaternion.identity, transform);
 
+        // Spawnear el obstáculo en posición
+        //Instantiate(obstacleToSpawn, spawnPoint.position, Quaternion.identity, transform);
 
 
-        
+
+
     }
 
     public void SpawnCoins()

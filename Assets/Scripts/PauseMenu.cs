@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -36,5 +37,13 @@ public class PauseMenu : MonoBehaviour
         pauseMenuPanel.SetActive(true);
         Time.timeScale = 0f;
         isGamePaused = true;
+    }
+
+    public void DeselectClickedButton(GameObject button)
+    {
+        if (EventSystem.current.currentSelectedGameObject == button)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+        }
     }
 }
