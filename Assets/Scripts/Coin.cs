@@ -24,6 +24,7 @@ public class Coin : MonoBehaviour
 
     public bool isDecreasing;
 
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<Obstacle>() != null)

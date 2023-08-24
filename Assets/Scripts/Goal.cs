@@ -13,6 +13,8 @@ public class Goal : MonoBehaviour
     [SerializeField]
     Transform goalMesh;
 
+    [SerializeField] AudioSource endLevelSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,7 @@ public class Goal : MonoBehaviour
         {
             playerMovement.LevelComplete();
             GameManager.inst.LevelComplete();
+            endLevelSound.Play();
         }
         // Matar al jugador
 

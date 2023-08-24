@@ -30,7 +30,11 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] GameObject gameOverPanel;
 
+    [SerializeField] AudioManager audioManager;
 
+    [SerializeField] AudioSource jumpSound;
+
+    [SerializeField] AudioSource dieSound;
     private void FixedUpdate()
     {
         if (!isAlive)
@@ -103,6 +107,10 @@ public class PlayerMovement : MonoBehaviour
 
         gameOverPanel.SetActive(true);
 
+        audioManager.GameOverFade();
+
+        dieSound.Play();
+
         // Reiniciar el juego
         //Invoke("Restart", 2);
     }
@@ -129,6 +137,7 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector3.up * jumpForce);
             characterAnim.SetBool("isMoving", false); 
             characterAnim.SetBool("isJumping", true);
+            jumpSound.Play();
         }
 
 
