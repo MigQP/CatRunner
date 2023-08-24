@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AppQuitter
+    - AudioManager
     - CameraFollow
     - Coin
     - GameManager
@@ -24,12 +26,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.VisualScripting.Core.dll:
-    - Unity.VisualScripting.SceneVariables
-    - Unity.VisualScripting.Variables
-    Unity.VisualScripting.Flow.dll:
-    - Unity.VisualScripting.ScriptGraphAsset
-    - Unity.VisualScripting.ScriptMachine
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -37,7 +33,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -65,8 +60,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
     - TMPro.VertexGradient
-    Unity.VisualScripting.Core:
-    - Unity.VisualScripting.SerializationData
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
@@ -84,6 +77,66 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: Assembly-CSharp
+    fullTypeName: AppQuitter
+    methodName: ExitGame
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Restart
@@ -139,9 +192,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -158,25 +221,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2786}
     - Class: 114
+      Script: {instanceID: 2954}
+    - Class: 114
       Script: {instanceID: 3068}
-    - Class: 114
-      Script: {instanceID: 3300}
-    - Class: 114
-      Script: {instanceID: 3642}
     - Class: 114
       Script: {instanceID: 4040}
     - Class: 114
       Script: {instanceID: 4288}
     - Class: 114
-      Script: {instanceID: 4644}
-    - Class: 114
       Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5578}
     - Class: 114
       Script: {instanceID: 5976}
     - Class: 114
-      Script: {instanceID: 7266}
+      Script: {instanceID: 54238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1189,8 +1248,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AppQuitter
   platform: 19
   scenePathNames:
   - Assets/Ejemplo Clase/Escenas/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/jamon/Documents/LEIVA/miau_03/CatRunner.exe
+  playerPath: C:/Users/jamon/Documents/LEIVA/miau_Desktop_04/CatRunner.exe
