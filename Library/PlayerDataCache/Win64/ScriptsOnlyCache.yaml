@@ -26,13 +26,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -83,72 +76,117 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: NormalFadeOut
   - assembly: Assembly-CSharp
     fullTypeName: AppQuitter
     methodName: ExitGame
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: Restart
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: Resume
@@ -164,12 +202,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: DeselectClickedButton
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: Resume
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
@@ -233,9 +277,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5578}
     - Class: 114
-      Script: {instanceID: 5976}
+      Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 54238}
+      Script: {instanceID: 5978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -281,6 +325,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -322,13 +370,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5578}
     - Class: 114
-      Script: {instanceID: 5976}
+      Script: {instanceID: 5668}
     - Class: 114
-      Script: {instanceID: 6946}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 7284}
+      Script: {instanceID: 6948}
+    - Class: 114
+      Script: {instanceID: 7286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -770,7 +820,7 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
-      Hash: 37f7cfa3f4bb2814f2429a0c83b4cc28
+      Hash: d588d6e1ef7b4b31ae97147503de96aa
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -944,7 +994,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: a5d9c116a5025621f71fa2a1619ffa2c
+      Hash: a08d06f630f17eeade7e2cbcbe7b6d74
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -978,6 +1028,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AppQuitter
   - hash:
       serializedVersion: 2
       Hash: 46ffbaea01259c5c7ee677afefd93ea8
@@ -1154,7 +1210,7 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 78c820a25045265da3032e4708ec3faf
+      Hash: bcf23876cc0fb6491cf3229f71d0fb13
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Goal
@@ -1248,14 +1304,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AppQuitter
   platform: 19
   scenePathNames:
   - Assets/Ejemplo Clase/Escenas/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/jamon/Documents/LEIVA/miau_Desktop_04/CatRunner.exe
+  playerPath: C:/Users/jamon/Documents/LEIVA/miau_Desktop_05/CatRunner.exe
