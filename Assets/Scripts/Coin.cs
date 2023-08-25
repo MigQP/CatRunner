@@ -47,15 +47,18 @@ public class Coin : MonoBehaviour
             if (isDecreasing)
             {
                 GameManager.inst.DecreaseSpeed();
+                GameManager.inst.deaccelerateSound.Play();
             }
             else
             {
                 GameManager.inst.IncrementSpeed();
+                GameManager.inst.accelerateSound.Play();
+                GameManager.inst.IncrementScore();
             }
 
 
             // Agregar puntaje  
-            GameManager.inst.IncrementScore();
+            //GameManager.inst.IncrementScore();
 
             Explode();
             // Destruir esta moneda

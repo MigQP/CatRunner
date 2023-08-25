@@ -19,6 +19,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] PlayerMovement playerMovement;
     public GameObject levelCompletedPanel;
 
+
+    public AudioSource accelerateSound;
+    public AudioSource deaccelerateSound;
+
     private PlayerMovement player;
 
     public void IncrementScore()
