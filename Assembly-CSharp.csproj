@@ -788,6 +788,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FullscreenEditor.csproj">
+      <Project>{AC77EA0A-72D8-6EA0-892B-856E2B08C05F}</Project>
+      <Name>FullscreenEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
