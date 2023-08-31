@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AppQuitter
+    - AudioManager
     - CameraFollow
     - Coin
     - GameManager
@@ -24,19 +26,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.VisualScripting.Core.dll:
-    - Unity.VisualScripting.SceneVariables
-    - Unity.VisualScripting.Variables
-    Unity.VisualScripting.Flow.dll:
-    - Unity.VisualScripting.ScriptGraphAsset
-    - Unity.VisualScripting.ScriptMachine
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -65,8 +59,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
     - TMPro.VertexGradient
-    Unity.VisualScripting.Core:
-    - Unity.VisualScripting.SerializationData
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
@@ -84,18 +76,123 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: Restart
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: Assembly-CSharp
+    fullTypeName: AppQuitter
+    methodName: ExitGame
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelChanger
+    methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: NormalFadeOut
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: Resume
@@ -111,12 +208,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: DeselectClickedButton
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: Resume
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LevelChanger
     methodName: FadeToLevel
@@ -139,44 +242,50 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 2176}
+      Script: {instanceID: 2174}
     - Class: 114
       Script: {instanceID: 2588}
     - Class: 114
       Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 3068}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 3642}
+      Script: {instanceID: 4070}
     - Class: 114
-      Script: {instanceID: 4040}
+      Script: {instanceID: 4324}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 5026}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 5636}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 5686}
     - Class: 114
-      Script: {instanceID: 5666}
-    - Class: 114
-      Script: {instanceID: 5976}
-    - Class: 114
-      Script: {instanceID: 7266}
+      Script: {instanceID: 6036}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,6 +331,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -235,41 +348,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1908}
+      Script: {instanceID: 1906}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2418}
     - Class: 114
       Script: {instanceID: 2588}
     - Class: 114
       Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 3068}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 4122}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4790}
+      Script: {instanceID: 4834}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 5004}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 5026}
     - Class: 114
-      Script: {instanceID: 5248}
+      Script: {instanceID: 5302}
     - Class: 114
-      Script: {instanceID: 5300}
+      Script: {instanceID: 5354}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5636}
     - Class: 114
-      Script: {instanceID: 5976}
+      Script: {instanceID: 5726}
     - Class: 114
-      Script: {instanceID: 6946}
+      Script: {instanceID: 6036}
     - Class: 114
-      Script: {instanceID: 7284}
+      Script: {instanceID: 7016}
+    - Class: 114
+      Script: {instanceID: 7362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -711,7 +826,7 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
-      Hash: 37f7cfa3f4bb2814f2429a0c83b4cc28
+      Hash: d588d6e1ef7b4b31ae97147503de96aa
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -885,7 +1000,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: a5d9c116a5025621f71fa2a1619ffa2c
+      Hash: a08d06f630f17eeade7e2cbcbe7b6d74
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -919,6 +1034,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AppQuitter
   - hash:
       serializedVersion: 2
       Hash: 46ffbaea01259c5c7ee677afefd93ea8
@@ -1095,7 +1216,7 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 78c820a25045265da3032e4708ec3faf
+      Hash: bcf23876cc0fb6491cf3229f71d0fb13
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Goal
@@ -1193,4 +1314,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Ejemplo Clase/Escenas/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/jamon/Documents/LEIVA/miauWeb_06
+  playerPath: C:/Users/jamon/Documents/LEIVA/miauWeb_023

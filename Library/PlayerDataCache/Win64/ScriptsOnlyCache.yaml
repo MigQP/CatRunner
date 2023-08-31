@@ -26,6 +26,12 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -255,31 +261,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1596}
     - Class: 114
       Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2788}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2958}
     - Class: 114
-      Script: {instanceID: 3068}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4040}
+      Script: {instanceID: 4072}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4326}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 5028}
     - Class: 114
-      Script: {instanceID: 5578}
+      Script: {instanceID: 5638}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 6038}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -342,43 +348,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1596}
     - Class: 114
       Script: {instanceID: 1908}
     - Class: 114
       Script: {instanceID: 2420}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2788}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2958}
     - Class: 114
-      Script: {instanceID: 3068}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4122}
+      Script: {instanceID: 4156}
     - Class: 114
-      Script: {instanceID: 4790}
+      Script: {instanceID: 4836}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 5006}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 5028}
     - Class: 114
-      Script: {instanceID: 5248}
+      Script: {instanceID: 5304}
     - Class: 114
-      Script: {instanceID: 5300}
+      Script: {instanceID: 5356}
     - Class: 114
-      Script: {instanceID: 5578}
+      Script: {instanceID: 5638}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5728}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 6038}
     - Class: 114
-      Script: {instanceID: 6948}
+      Script: {instanceID: 7018}
     - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 7362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1308,4 +1314,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Ejemplo Clase/Escenas/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/jamon/Documents/LEIVA/miau_Desktop_05/CatRunner.exe
+  playerPath: C:/Users/jamon/Documents/LEIVA/miauDesktop_08/CatRunner.exe
