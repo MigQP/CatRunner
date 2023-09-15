@@ -605,7 +605,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Game
+          m_StringArgument: Game02
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2090253535}
@@ -1250,7 +1250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 121.6, y: -163.9}
+  m_AnchoredPosition: {x: 85, y: -163.9}
   m_SizeDelta: {x: 66, y: 66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546940621
@@ -2375,7 +2375,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cec486cbda498334ab6e9e84dbbe7717, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 84848e49bdec27c4c97b307ac644c3ad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5665,7 +5665,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -151.8}
-  m_SizeDelta: {x: 629, y: 189}
+  m_SizeDelta: {x: 495, y: 194}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980626930
 MonoBehaviour:
@@ -5687,7 +5687,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2bff5634ff6869f4fae04f1f9331eb55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 962a502237709484bb58024641114fbe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
