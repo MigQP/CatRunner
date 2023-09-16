@@ -1306,7 +1306,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Menu
+          m_StringArgument: StoryScene04
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1930238878}
@@ -2375,7 +2375,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d747688837b58394691e827211933e19, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c28c898b98c10d4da8773966b3a0326, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5687,7 +5687,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2bff5634ff6869f4fae04f1f9331eb55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ce10d1babb0b1d4da26cc617d5ccfc4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -1,485 +1,305 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1694228408355111, "dur":30343, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408385463, "dur":2115, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408387696, "dur":554, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388350, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388434, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388500, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388565, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level0" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388684, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level1" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388777, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level1.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388934, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level2" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389034, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level3" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389096, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level3.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389227, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level4.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389289, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level5" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389348, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level5.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389514, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389688, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389750, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389814, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":0, "ts":1694228408389895, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390084, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390147, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390262, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390350, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390466, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390538, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390634, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390710, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390871, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408390925, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":0, "ts":1694228408391029, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694228408391375, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1694228408391494, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":0, "ts":1694228408391684, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408391955, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392118, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392245, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392316, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392411, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392520, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392681, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392791, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392878, "dur":101, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408392984, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408393049, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408393147, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408393216, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408393401, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408393502, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408393569, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408393732, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394002, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394121, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394175, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394308, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394437, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394495, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394616, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394706, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394816, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408394995, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408395437, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408395497, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408395618, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408395710, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408395806, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408395866, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408395984, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408396111, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408396306, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408396380, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408396623, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408396728, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408396787, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397141, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397200, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397257, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397502, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397592, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397668, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397725, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397790, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397858, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408397917, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408398024, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408398189, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":0, "ts":1694228408398522, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":0, "ts":1694228408398622, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1694228408398683, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1694228408398788, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1694228408398842, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1694228408399158, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1694228408399559, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":0, "ts":1694228408399645, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":0, "ts":1694228408399714, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694228408388280, "dur":11511, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408399793, "dur":261197, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408660991, "dur":326, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408661317, "dur":53, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408661571, "dur":12200, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1694228408388719, "dur":11086, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1694228408399809, "dur":8252, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1694228408417992, "dur":729, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1694228408418726, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1694228408418904, "dur":1123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1694228408420029, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1694228408420592, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jamon\\Documents\\Unity_2019219F1\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1694228408420856, "dur":359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jamon\\Documents\\Unity_2019219F1\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1694228408421219, "dur":451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jamon\\Documents\\Unity_2019219F1\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1694228408421672, "dur":586, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jamon\\Documents\\Unity_2019219F1\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1694228408422260, "dur":917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jamon\\Documents\\Unity_2019219F1\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1694228408423179, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jamon\\Documents\\Unity_2019219F1\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1694228408423334, "dur":645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jamon\\Documents\\Unity_2019219F1\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1694228408418725, "dur":5588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1694228408424736, "dur":85, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1694228408425319, "dur":225565, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1694228408659603, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1694228408659602, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1694228408659765, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1694228408388820, "dur":10996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408399830, "dur":1821, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408401652, "dur":6416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408408151, "dur":395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1694228408408111, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1694228408408548, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408418729, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1694228408422949, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1694228408422947, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1694228408423112, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408423528, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1694228408425586, "dur":349, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408425580, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408425938, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408426340, "dur":6407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408432870, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408433070, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408437330, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408437407, "dur":4545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408442031, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408442144, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408444558, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408444655, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408447652, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408447754, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408450531, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408450663, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408454838, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408455050, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408458419, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408458551, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408462762, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408462889, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408465966, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408467796, "dur":258, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408466166, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408468169, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408468380, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408471027, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408471153, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408474604, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694228408474709, "dur":7634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694228408482605, "dur":21703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1694228408504396, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level6" }}
-,{ "pid":12345, "tid":2, "ts":1694228408506750, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level4.resS" }}
-,{ "pid":12345, "tid":2, "ts":1694228408508780, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1694228408513285, "dur":147688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408388948, "dur":10890, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408399843, "dur":1612, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408401455, "dur":1394, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408402849, "dur":5255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408408111, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1694228408408303, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408410601, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1694228408413692, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1694228408413903, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408414195, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1694228408415612, "dur":353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1694228408415606, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1694228408415967, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408416337, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1694228408418142, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1694228408418316, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408418476, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1694228408420245, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1694228408420394, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408420877, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1694228408422445, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1694228408422651, "dur":670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408423570, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1694228408425785, "dur":953, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":3, "ts":1694228408425784, "dur":956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan.exe" }}
-,{ "pid":12345, "tid":3, "ts":1694228408426741, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408426817, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan.exe" }}
-,{ "pid":12345, "tid":3, "ts":1694228408428411, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408428765, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408433498, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408433676, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408437784, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408437870, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408440752, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408440859, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408444284, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408444379, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408446824, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408446913, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408449908, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408450041, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408452680, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408452883, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408455316, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408455552, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408458788, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408458870, "dur":3248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408462335, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408462494, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408464301, "dur":770, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408465109, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408466907, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408467056, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408469395, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408469585, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408472120, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408472210, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408475428, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408475515, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408478446, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408478542, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408480500, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408480498, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408480715, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694228408480804, "dur":58384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694228408539271, "dur":121709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408389137, "dur":10714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408399855, "dur":2035, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408401890, "dur":6211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408408147, "dur":405, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1694228408408111, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1694228408408555, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408431616, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1694228408435772, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408435931, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408437906, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408438071, "dur":2573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408440720, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408440815, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408443106, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408443507, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408446340, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408446436, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408448383, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408448654, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408450890, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408450989, "dur":2808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408453886, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408454002, "dur":4585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408458848, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408458933, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408462574, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408462676, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408466096, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408466371, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408469242, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408469340, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408472475, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408472601, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408475181, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408477838, "dur":259, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408475275, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408478427, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408478515, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408480123, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408480241, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694228408487612, "dur":315, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408481870, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":4, "ts":1694228408489113, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1694228408493514, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1694228408495247, "dur":5272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1694228408500637, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694228408500750, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1694228408504194, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1694228408506859, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level3.resS" }}
-,{ "pid":12345, "tid":4, "ts":1694228408509507, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1694228408512354, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1694228408514444, "dur":146531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408389188, "dur":10674, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408399866, "dur":1596, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408401463, "dur":904, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408402368, "dur":5744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408408180, "dur":411, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1694228408408113, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1694228408408593, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408449810, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408438679, "dur":11214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1694228408449985, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408450066, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408452856, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408453003, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408456949, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408457205, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408459834, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408459926, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408464038, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408464273, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408466986, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408467101, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408470922, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408471056, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408473681, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408473791, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408476399, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408476671, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408479464, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694228408479547, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694228408481375, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":5, "ts":1694228408483285, "dur":6552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1694228408489956, "dur":4356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1694228408494430, "dur":7486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":5, "ts":1694228408502212, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1694228408504273, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1694228408506761, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level4" }}
-,{ "pid":12345, "tid":5, "ts":1694228408508982, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1694228408512355, "dur":148624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408389252, "dur":10621, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408399876, "dur":1935, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408401812, "dur":6301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408408114, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1694228408408556, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408431769, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1694228408434855, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408434954, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408437984, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408438227, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408440861, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408440939, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408444589, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408444719, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408446680, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408446766, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408450148, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408450250, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408453177, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408453269, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408456221, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408456481, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408459519, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408459659, "dur":3452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408463197, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408463392, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408466847, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408467304, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408470223, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408470330, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408473092, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408477672, "dur":387, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408473307, "dur":5001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408478495, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408478581, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694228408480707, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":6, "ts":1694228408482789, "dur":7012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":6, "ts":1694228408489938, "dur":405, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408490348, "dur":11404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":6, "ts":1694228408501845, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694228408502198, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1694228408504373, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level6.resS" }}
-,{ "pid":12345, "tid":6, "ts":1694228408506616, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level5" }}
-,{ "pid":12345, "tid":6, "ts":1694228408508637, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level2" }}
-,{ "pid":12345, "tid":6, "ts":1694228408511455, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1694228408514099, "dur":146895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408389311, "dur":10572, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408399887, "dur":1819, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408401706, "dur":6361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408408124, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408408285, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408409808, "dur":3014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1694228408412827, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408412826, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408413008, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408413585, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408415521, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1694228408415851, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408416373, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1694228408418187, "dur":348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408418181, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408418538, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408418625, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408421878, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408421876, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408422222, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408422340, "dur":232, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408422827, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1694228408424546, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1694228408424711, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408425255, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1694228408426987, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1694228408427145, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408427716, "dur":9357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1694228408437172, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408437263, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408440710, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408440807, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408443703, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408443793, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408447105, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408447180, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408449656, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408449859, "dur":85, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408449950, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408452335, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408454882, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408452439, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408455077, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408455230, "dur":3562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408458874, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408458953, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408463621, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408463793, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408467213, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408467317, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408470192, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408470319, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408472676, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408472766, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408475482, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408475641, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408479019, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408479150, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1694228408481239, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1694228408487807, "dur":503, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408483769, "dur":4572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":7, "ts":1694228408488509, "dur":6449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1694228408495131, "dur":10760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1694228408506005, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level5.resS" }}
-,{ "pid":12345, "tid":7, "ts":1694228408507718, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level2.resS" }}
-,{ "pid":12345, "tid":7, "ts":1694228408515407, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694228408510377, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1694228408515608, "dur":145378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408389363, "dur":10673, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408400037, "dur":1845, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408401882, "dur":6221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408408112, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1694228408408346, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408418235, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1694228408419936, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1694228408420105, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408420211, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1694228408423013, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1694228408423159, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408423513, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1694228408425744, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408425741, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408425999, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408426374, "dur":13985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408440460, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408440548, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408442647, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408442803, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408446557, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408446639, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408448364, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408451592, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408451705, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408454786, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408455214, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408458628, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408462510, "dur":129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408458723, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408462757, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408462899, "dur":2984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408465970, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408467784, "dur":218, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408466160, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408468124, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408468254, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408471693, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408471836, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408474031, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408474198, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408477139, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694228408477315, "dur":29539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694228408507164, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level3" }}
-,{ "pid":12345, "tid":8, "ts":1694228408509986, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamon/Documents/LEIVA/mixitlan/Mixitlan_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1694228408514713, "dur":146281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694228408678919, "dur":2142, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1694828294888255, "dur":65, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828294888376, "dur":80281, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828294968665, "dur":383, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828294969129, "dur":726, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828294970061, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1694828294970282, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/level2.resS" }}
+,{ "pid":12345, "tid":0, "ts":1694828294972430, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294972621, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294972733, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294972796, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294973068, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294973400, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294973555, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294974081, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694828294969902, "dur":7261, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828294977165, "dur":776403, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828295753569, "dur":357, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828295754091, "dur":11510, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694828294970043, "dur":7135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694828294977182, "dur":6474, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694828294987687, "dur":49628, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1694828295037324, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1694828295037610, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1694828295037834, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1694828295038330, "dur":274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295038930, "dur":274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295039207, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295039524, "dur":598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295040124, "dur":545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295040672, "dur":920, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295041594, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295041780, "dur":425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295042207, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\CatRunner\\Library\\PackageCache\\com.unity.visualscripting@1.9.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295042416, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerb2351434-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1694828295037321, "dur":5287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1694828295062076, "dur":285611, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1694828295356081, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1694828295356080, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1694828295356305, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1694828295358348, "dur":33551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295391992, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295391989, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694828295392164, "dur":361297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828294970096, "dur":7113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694828294977212, "dur":1290, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694828294978503, "dur":5192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694828294983714, "dur":1576, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694828294983696, "dur":1595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694828294986191, "dur":55090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694828295041393, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295041386, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295072381, "dur":41107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295113598, "dur":7700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295121397, "dur":29932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295151539, "dur":107, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694828295151649, "dur":41189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295236711, "dur":2544, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694828295192947, "dur":46332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295239777, "dur":36183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295276121, "dur":37118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295355342, "dur":171, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694828295313362, "dur":42167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295355754, "dur":42825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694828295398703, "dur":18463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1694828295417207, "dur":47681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1694828295464948, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level7.resS" }}
+,{ "pid":12345, "tid":2, "ts":1694828295469051, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1694828295472357, "dur":281220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694828294970087, "dur":7103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694828294977203, "dur":1269, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694828294978472, "dur":5274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694828294983747, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694828294986688, "dur":10872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694828294997632, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1694828294997765, "dur":43137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1694828295041012, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1694828295041009, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1694828295072157, "dur":5889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1694828295078134, "dur":41196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295119420, "dur":15389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295134926, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295146302, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694828295139613, "dur":6800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295146489, "dur":38165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295184758, "dur":44019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295228890, "dur":37977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295302974, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694828295267071, "dur":35988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295303263, "dur":48230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295351591, "dur":69649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694828295421356, "dur":47282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1694828295468660, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694828295471976, "dur":281586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694828294970136, "dur":7081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694828294977221, "dur":1268, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694828294978489, "dur":5312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694828294983813, "dur":1333, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1694828294983802, "dur":1345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1694828294986278, "dur":11579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1694828294997912, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1694828294997910, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1694828294998033, "dur":43297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1694828295041416, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694828295041414, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694828295327640, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694828295072185, "dur":255554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694828295327986, "dur":39882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694828295368044, "dur":38973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694828295407171, "dur":332, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694828295407506, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1694828295410798, "dur":5641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1694828295454751, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694828295416483, "dur":38344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1694828295454891, "dur":13232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1694828295468157, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1694828295470392, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1694828295473997, "dur":279574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694828294970176, "dur":7052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694828294977235, "dur":1054, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694828294978289, "dur":5381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694828294983679, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1694828294985757, "dur":16187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1694828295002004, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694828295002127, "dur":38905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694828295041129, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694828295072178, "dur":35780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694828295108149, "dur":11028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295119272, "dur":8012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295127385, "dur":6611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295134123, "dur":11727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295145888, "dur":33958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295179953, "dur":32336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295212416, "dur":52974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295265577, "dur":34490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295300188, "dur":35673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295335992, "dur":46072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295382172, "dur":38926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694828295465481, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694828295421245, "dur":44391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1694828295465734, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1694828295468638, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1694828295471271, "dur":282295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694828294970217, "dur":7026, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694828294977248, "dur":1248, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694828294978496, "dur":5180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694828294983677, "dur":1462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694828294986163, "dur":54408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694828295040687, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694828295040856, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694828295072141, "dur":4486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694828295076737, "dur":95081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295171932, "dur":32362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295204408, "dur":37479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295242041, "dur":28705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295270861, "dur":38710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295309727, "dur":33232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295343081, "dur":37037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295380395, "dur":43842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694828295424416, "dur":47032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1694828295471463, "dur":282102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694828294970267, "dur":6989, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694828294977261, "dur":1256, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694828294978517, "dur":5148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694828294983677, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1694828294987007, "dur":53063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1694828295040176, "dur":383, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1694828295040173, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1694828295072474, "dur":5345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1694828295077915, "dur":39132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295117264, "dur":6224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295123612, "dur":8824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295132541, "dur":6128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295138740, "dur":8521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295147303, "dur":42500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295189978, "dur":40994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295231153, "dur":35768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295267248, "dur":30500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295297924, "dur":46941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295344975, "dur":38258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295383349, "dur":43807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694828295427289, "dur":38646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1694828295465972, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1694828295469324, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1694828295472474, "dur":281087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828294970311, "dur":6958, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828294977275, "dur":907, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828294978182, "dur":5517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828294983700, "dur":1528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1694828294986169, "dur":54780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1694828295041221, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1694828295072541, "dur":4548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1694828295120358, "dur":150, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828295077181, "dur":43361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694828295174039, "dur":113, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828295120787, "dur":53477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694828295174430, "dur":39100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694828295213646, "dur":40912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694828295313531, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828295254691, "dur":58950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694828295313753, "dur":50457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694828295364330, "dur":39730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694828295411225, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828295407069, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1694828295454769, "dur":208, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694828295411398, "dur":43594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1694828295455047, "dur":13191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1694828295468283, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1694828295471103, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1694828295473110, "dur":280470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694828294970355, "dur":6928, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694828294977287, "dur":323, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694828294977610, "dur":6063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694828294983819, "dur":1523, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1694828294983678, "dur":1665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1694828294986331, "dur":55270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1694828295041668, "dur":654, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":9, "ts":1694828295041667, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan.exe" }}
+,{ "pid":12345, "tid":9, "ts":1694828295042338, "dur":37538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan.exe" }}
+,{ "pid":12345, "tid":9, "ts":1694828295079909, "dur":57661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295137685, "dur":12593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295150328, "dur":30937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295181395, "dur":40009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295221515, "dur":44309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295265950, "dur":34147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295300204, "dur":33317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295333678, "dur":37944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295371739, "dur":39867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694828295454691, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694828295411732, "dur":43083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694828295454900, "dur":10830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1694828295465777, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694828295469291, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694828295472508, "dur":281076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694828294970414, "dur":6881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694828294977300, "dur":272, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694828294977573, "dur":6086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694828294983688, "dur":23841, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694828295036505, "dur":10855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1694828295047362, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/Mixitlan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1694828295072396, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1694828295078695, "dur":44901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295123687, "dur":11927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295135722, "dur":14551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295150317, "dur":42414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295192833, "dur":31286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295224266, "dur":46463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295270849, "dur":35653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295306640, "dur":37195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295344031, "dur":37115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295381259, "dur":27588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694828295408959, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1694828295412178, "dur":5303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1694828295417522, "dur":47355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1694828295464914, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1694828295468584, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1694828295471965, "dur":281608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694828294970473, "dur":6835, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694828294977309, "dur":6354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694828294983702, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1694828294983677, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1694828294986217, "dur":53518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1694828295039865, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1694828295040583, "dur":12432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1694828295072584, "dur":94842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694828295167532, "dur":43170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694828295210961, "dur":38291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694828295249422, "dur":32885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694828295282426, "dur":46873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694828295329430, "dur":43871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694828295373419, "dur":29888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694828295403443, "dur":6611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":11, "ts":1694828295410105, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1694828295411945, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1694828295417821, "dur":47022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1694828295464959, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level7" }}
+,{ "pid":12345, "tid":11, "ts":1694828295468148, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1694828295470405, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1694828295472928, "dur":280647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694828294970509, "dur":6811, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694828294977320, "dur":6341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694828294983830, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1694828294983677, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mixitlan/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1694828294988324, "dur":84185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1694828295072626, "dur":34305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295107134, "dur":197, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694828295120466, "dur":741, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694828295107340, "dur":13884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295121369, "dur":5755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295127228, "dur":11594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295139018, "dur":6750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295145812, "dur":33672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295179592, "dur":32894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295212589, "dur":60563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295313546, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694828295273300, "dur":40368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295313780, "dur":31524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295345412, "dur":34133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295379657, "dur":44647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694828295424462, "dur":41235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1694828295465769, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level6" }}
+,{ "pid":12345, "tid":12, "ts":1694828295468543, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mixitlan/Mixitlan_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1694828295471393, "dur":282171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694828295769467, "dur":1175, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
